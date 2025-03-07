@@ -7,7 +7,7 @@ import {
     getDocs, // Para hacer referencia a un documento específico en Firestore 
     updateDoc // Para actualizar un documento en Firestore
 } from "firebase/firestore";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { db } from "./firebaseConfig"; // Importamos la configuración de Firebase 
 
 // Importamos Chart.js para la generación de reportes en gráficos 
